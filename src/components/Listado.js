@@ -16,35 +16,40 @@ export const Listado = ({listadoState, setListadoState}) => {
 
 
   const conseguirPeliculas = () => {
-      let peliculas = JSON.parse(localStorage.getItem("pelis"));
-       
-      if (!peliculas || peliculas.length === 0) {
+  let pelisLocal = JSON.parse(localStorage.getItem("pelis"));
 
-    // Si no hay datos en localStorage, cargar desde data.json
-    fetch(`${process.env.PUBLIC_URL}/data.json`)
-       .then(async res => {
-        const text = await res.text();
+  fetch(`${process.env.PUBLIC_URL}/data.json`)
+    .then(async (res) => {
+      const text = await res.text();
+      try {
+        const dataJson = JSON.parse(text);
 
-        try {
-          const data = JSON.parse(text);
-          localStorage.setItem('pelis', JSON.stringify(data));
-          setListadoState(data);
-        } catch (err) {
-          console.error("⚠️ Error al parsear data.json: no es JSON válido. Probablemente se recibió HTML (404)", err);
-          console.error("Contenido recibido:", text);
-          setListadoState([]);
+        // Si no hay nada en localStorage, usar solo data.json
+        if (!pelisLocal || pelisLocal.length === 0) {
+          localStorage.setItem("pelis", JSON.stringify(dataJson));
+          setListadoState(dataJson);
+        } else {
+          // Fusionar sin duplicar por ID
+          const idsLocal = new Set(pelisLocal.map((p) => p.id));
+          const combinados = [...pelisLocal, ...dataJson.filter(p => !idsLocal.has(p.id))];
+
+          localStorage.setItem("pelis", JSON.stringify(combinados));
+          setListadoState(combinados);
         }
-      })
-      .catch(err => {
-        console.error("Error al cargar data.json", err);
-        setListadoState([]);
-      });
-  } else {
-    setListadoState(peliculas);
-  }
+      } catch (err) {
+        console.error("⚠️ Error al parsear data.json: no es JSON válido. Probablemente se recibió HTML (404)", err);
+        console.error("Contenido recibido:", text);
+        setListadoState(pelisLocal || []);
+      }
+    })
+    .catch((err) => {
+      console.error("Error al cargar data.json", err);
+      setListadoState(pelisLocal || []);
+    });
 
-  return peliculas;
+  return pelisLocal;
 };
+
 
 
 

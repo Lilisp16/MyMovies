@@ -122,24 +122,33 @@ export const ApiRest = ({ setListadoState }) => {
 
                         {/* Botón para obtener proveedores de visualización */}
                         <div className="watch-providers">
-                        <button onClick={(e) => { e.preventDefault(); getWatchProviders(movie.id); }}>
+                            {/* Botón siempre visible */}
+                            <button onClick={(e) => {
+                                e.preventDefault();
+                                getWatchProviders(movie.id);
+                            }}>
                                 Plataformas
                             </button>
-                            {providers[movie.id] && providers[movie.id].flatrate ? (
+
+                            {/* Si ya se cargaron proveedores y hay flatrate */}
+                            {providers[movie.id] && providers[movie.id].flatrate && (
                                 <div>
                                     <h4>Disponible en:</h4>
                                     <ul>
                                         {providers[movie.id].flatrate.map((provider) => (
-                                            <li key={provider.provider_id}>
-                                                {provider.provider_name}
-                                            </li>
+                                            <li key={provider.provider_id}>{provider.provider_name}</li>
                                         ))}
                                     </ul>
                                 </div>
-                            ) : (
+                            )}
+
+                            {/* Si ya se cargaron proveedores y NO hay flatrate */}
+                            {providers[movie.id] && !providers[movie.id].flatrate && (
                                 <p>No hay plataformas disponibles</p>
                             )}
                         </div>
+
+
                     </div>
                 ))}
             </div>
