@@ -107,7 +107,7 @@ export const ApiRest = ({ setListadoState }) => {
                     type="text"
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    placeholder="Nombre de pelicula"
+                    placeholder="Busca tu película favorita"
                 />
                 <button type="submit">Buscar</button>
             </form>
