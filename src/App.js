@@ -10,6 +10,8 @@ import imgfooter from './assets/imgfooter.png';
 import pop from './assets/pop.png';
 import { BuscadorApiRest } from "./components/BuscadorApiRest";
 
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -48,8 +50,8 @@ function App() {
         {/*Barra de Navegacion*/}
         <nav className="nav" >
              <ul>
-                <li><a href="/#" onClick={() => setActiveTab('listado')}>Inicio</a></li>
-                <li><a href="/#" onClick={() => setActiveTab('peliculas')}>Peliculas</a></li>
+                <li><Link to="/" onClick={() => setActiveTab('listado')}>Inicio</Link></li>
+                <li><Link to="/peliculas" onClick={() => setActiveTab('peliculas')}>Peliculas</Link></li>
                 <li> <a href="https://www.justwatch.com" target="_blank" rel="noopener noreferrer">Ver online</a></li>
                 <li><a href="/#" onClick={handleOpenModal}>Contacto</a></li>
              </ul>
