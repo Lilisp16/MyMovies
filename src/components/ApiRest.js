@@ -116,7 +116,7 @@ export const ApiRest = ({ setListadoState }) => {
                 {movies.map((movie) => (
                     <div key={movie.id} className="movie-card">
                         <img src={ movie.poster_path
-                            ?`${IMAGE_BASE_URL}${movie.poster_path}`: '/img/default-poster.jpg'} alt={movie.title} className="movie-image" />
+                            ?`${IMAGE_BASE_URL}${movie.poster_path}`: `${process.env.PUBLIC_URL}/img/default-poster.jpg`} alt={movie.title} className="movie-image" />
                         <div className="movie-title">{movie.title}</div>
                         <div className="movie-rating">Puntuación: {movie.vote_average}</div>
 

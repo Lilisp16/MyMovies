@@ -53,7 +53,7 @@ function App() {
                 <li><Link to="/" onClick={() => setActiveTab('listado')}>Inicio</Link></li>
                 <li><Link to="/peliculas" onClick={() => setActiveTab('peliculas')}>Peliculas</Link></li>
                 <li> <a href="https://www.justwatch.com" target="_blank" rel="noopener noreferrer">Ver online</a></li>
-                <li><a href="/#" onClick={handleOpenModal}>Contacto</a></li>
+                <li><a href="#" onClick={(e) => { e.preventDefault(); handleOpenModal(); }}>Contacto</a></li>
              </ul>
         </nav>
 
