@@ -1,1 +1,58 @@
-[{"id":1727825435222,"titulo":"Atlas","descripcion":"una brillante pero misántropa analista de datos que no confía en la inteligencia artificial, se une a una misión para capturar a un robot renegado con quien comparte un misterioso pasado.","trailer":"https://www.youtube.com/watch?v=vC2oN32ol0w","link":"https://www.netflix.com/co/title/81012048"},{"id":1727831712251,"titulo":"Amor bajo el fuego","descripcion":"El CEO se enamoró de una chica extraña.","trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/T-_yPDArkD8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>","link":"https://www.youtube.com/watch?v=T-_yPDArkD8"},{"id":1727834560903,"titulo":"ELIO","descripcion":"Esta desventura intergaláctica nos presenta a Elio, un marginado con una imaginación muy activa.","trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/QCbNNjlfCIo?si=CwnenfSOx2YqlDYb\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>","link":"https://www.disneyplus.com/es-co/movies/elio/6VZivoQvnzx4"},{"id":1727836236376,"titulo":"El Sindicato","descripcion":"Mike (Mark Wahlberg), un trabajador de la construcción de Nueva Jersey, se ve inmerso repentinamente en el mundo del espionaje y los agentes secretos cuando Roxanne (Halle Berry), su amor de la escuela, vuelve a aparecer en su vida y lo recluta para una arriesgada misión de inteligencia estadounidense.\n","trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oFDLwkL54jQ?si=syjYF8V5X5PZ9-xD\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>","link":"https://www.netflix.com/co/title/81282732"},{"id":1727836888681,"titulo":"Damsel","descripcion":"Después de acceder a casarse con un príncipe muy guapo, una sumisa damisela descubre que la familia real solo la quiere como sacrificio para saldar una antigua deuda. Arrojada a la cueva de un dragón que escupe fuego, la joven debe recurrir a toda su astucia y voluntad para sobrevivir.","trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VrdRyYPggfI?si=NOvWd4MQif3ASpBl\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>","link":"https://www.netflix.com/co/title/80991090"},{"id":1727837307036,"titulo":"Me llamo Loh Kiwan ","descripcion":"Después de huir de Corea del Norte, Loh Kiwan lucha para conseguir el estatus de refugiado en Bélgica, donde conoce a una mujer deprimida que perdió toda esperanza.","trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/BDzaXh6lXvk?si=k6mqHDOTQ0ga_opq\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>","link":"https://www.netflix.com/co/title/81616524"},{"id":1727997066264,"titulo":"SONIC 3 nueva","descripcion":"Sonic regresa a la pantalla grande esta temporada navideña en su aventura más emocionante hasta el momento. Sonic, Knuckles y Tails se reunirán para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano con poderes nunca antes vistos. ","trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/w-YaTnxwQxU?si=bbDgk0gQHgdL6qz9\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>","link":"https://www.youtube.com/watch?v=w-YaTnxwQxU&t=1s"},{"id":1748319168350,"titulo":"EL GATO CON BOTAS: EL ÚLTIMO DESEO","descripcion":"Estas navidades regresa a las salas el felino espadachín más intrépido e icónico de la historia: El Gato con Botas.","trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/7afDrYLajRk?si=qOJLOY6kc-X2J06K\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>","link":"https://www.netflix.com/co/title/81555726"}]
+[
+  {
+    "id": 1727825435222,
+    "titulo": "Atlas",
+    "descripcion": "una brillante pero misántropa analista de datos que no confía en la inteligencia artificial, se une a una misión para capturar a un robot renegado con quien comparte un misterioso pasado.",
+    "trailer": "https://www.youtube.com/watch?v=vC2oN32ol0w",
+    "link": "https://www.netflix.com/co/title/81012048"
+  },
+  {
+    "id": 1727831712251,
+    "titulo": "Amor bajo el fuego",
+    "descripcion": "El CEO se enamoró de una chica extraña.",
+    "trailer": "https://www.youtube.com/watch?v=T-_yPDArkD8",
+    "link": "https://www.youtube.com/watch?v=T-_yPDArkD8"
+  },
+  {
+    "id": 1727834560903,
+    "titulo": "ELIO",
+    "descripcion": "Esta desventura intergaláctica nos presenta a Elio, un marginado con una imaginación muy activa.",
+    "trailer": "https://www.youtube.com/watch?v=QCbNNjlfCIo",
+    "link": "https://www.disneyplus.com/es-co/movies/elio/6VZivoQvnzx4"
+  },
+  {
+    "id": 1727836236376,
+    "titulo": "El Sindicato",
+    "descripcion": "Mike (Mark Wahlberg), un trabajador de la construcción de Nueva Jersey, se ve inmerso repentinamente en el mundo del espionaje y los agentes secretos cuando Roxanne (Halle Berry), su amor de la escuela, vuelve a aparecer en su vida y lo recluta para una arriesgada misión de inteligencia estadounidense.",
+    "trailer": "https://www.youtube.com/watch?v=oFDLwkL54jQ",
+    "link": "https://www.netflix.com/co/title/81282732"
+  },
+  {
+    "id": 1727836888681,
+    "titulo": "Damsel",
+    "descripcion": "Después de acceder a casarse con un príncipe muy guapo, una sumisa damisela descubre que la familia real solo la quiere como sacrificio para saldar una antigua deuda. Arrojada a la cueva de un dragón que escupe fuego, la joven debe recurrir a toda su astucia y voluntad para sobrevivir.",
+    "trailer": "https://www.youtube.com/watch?v=VrdRyYPggfI",
+    "link": "https://www.netflix.com/co/title/80991090"
+  },
+  {
+    "id": 1727837307036,
+    "titulo": "Me llamo Loh Kiwan ",
+    "descripcion": "Después de huir de Corea del Norte, Loh Kiwan lucha para conseguir el estatus de refugiado en Bélgica, donde conoce a una mujer deprimida que perdió toda esperanza.",
+    "trailer": "https://www.youtube.com/watch?v=BDzaXh6lXvk",
+    "link": "https://www.netflix.com/co/title/81616524"
+  },
+  {
+    "id": 1727997066264,
+    "titulo": "SONIC 3 nueva",
+    "descripcion": "Sonic regresa a la pantalla grande esta temporada navideña en su aventura más emocionante hasta el momento. Sonic, Knuckles y Tails se reunirán para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano con poderes nunca antes vistos.",
+    "trailer": "https://www.youtube.com/watch?v=w-YaTnxwQxU",
+    "link": "https://www.youtube.com/watch?v=w-YaTnxwQxU&t=1s"
+  },
+  {
+    "id": 1748319168350,
+    "titulo": "EL GATO CON BOTAS: EL ÚLTIMO DESEO",
+    "descripcion": "Estas navidades regresa a las salas el felino espadachín más intrépido e icónico de la historia: El Gato con Botas.",
+    "trailer": "https://www.youtube.com/watch?v=7afDrYLajRk",
+    "link": "https://www.netflix.com/co/title/81555726"
+  }
+]

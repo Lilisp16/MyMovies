@@ -19,16 +19,25 @@ export const Listado = ({listadoState, setListadoState}) => {
       let peliculas = JSON.parse(localStorage.getItem("pelis"));
        
       if (!peliculas || peliculas.length === 0) {
+
     // Si no hay datos en localStorage, cargar desde data.json
     fetch(`${process.env.PUBLIC_URL}/data.json`)
-      .then(res => res.json())
-      .then(data => {
-        localStorage.setItem('pelis', JSON.stringify(data));
-        setListadoState(data);
+       .then(async res => {
+        const text = await res.text();
+
+        try {
+          const data = JSON.parse(text);
+          localStorage.setItem('pelis', JSON.stringify(data));
+          setListadoState(data);
+        } catch (err) {
+          console.error("⚠️ Error al parsear data.json: no es JSON válido. Probablemente se recibió HTML (404)", err);
+          console.error("Contenido recibido:", text);
+          setListadoState([]);
+        }
       })
       .catch(err => {
         console.error("Error al cargar data.json", err);
-        setListadoState([]); // Evita que quede indefinido
+        setListadoState([]);
       });
   } else {
     setListadoState(peliculas);
