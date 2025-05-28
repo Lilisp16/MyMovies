@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Lilisp16/MyMovies.git/static/css/main.5595c354.css",
-    "main.js": "/Lilisp16/MyMovies.git/static/js/main.27960277.js",
-    "static/media/imgfooter.png": "/Lilisp16/MyMovies.git/static/media/imgfooter.3632c2d4537c20f9a8ba.png",
-    "static/media/pop.png": "/Lilisp16/MyMovies.git/static/media/pop.6c8fbf7d9e545bdb2217.png",
-    "static/media/byempresa.svg": "/Lilisp16/MyMovies.git/static/media/byempresa.3411fefc8eacd0ffce2ecbd921db20be.svg",
-    "static/media/b2.svg": "/Lilisp16/MyMovies.git/static/media/b2.a4ad355a77e4093f7c01.svg",
-    "static/media/marcapersonal-ls.svg": "/Lilisp16/MyMovies.git/static/media/marcapersonal-ls.1c3f812465f643dc326ff288c9fcb841.svg",
-    "index.html": "/Lilisp16/MyMovies.git/index.html",
-    "main.5595c354.css.map": "/Lilisp16/MyMovies.git/static/css/main.5595c354.css.map",
-    "main.27960277.js.map": "/Lilisp16/MyMovies.git/static/js/main.27960277.js.map"
+    "main.css": "/MyMovies/static/css/main.58539add.css",
+    "main.js": "/MyMovies/static/js/main.0e67ce8a.js",
+    "static/media/imgfooter.png": "/MyMovies/static/media/imgfooter.3632c2d4537c20f9a8ba.png",
+    "static/media/pop.png": "/MyMovies/static/media/pop.6c8fbf7d9e545bdb2217.png",
+    "static/media/byempresa.svg": "/MyMovies/static/media/byempresa.3411fefc8eacd0ffce2ecbd921db20be.svg",
+    "static/media/b2.svg": "/MyMovies/static/media/b2.a4ad355a77e4093f7c01.svg",
+    "static/media/marcapersonal-ls.svg": "/MyMovies/static/media/marcapersonal-ls.1c3f812465f643dc326ff288c9fcb841.svg",
+    "index.html": "/MyMovies/index.html",
+    "main.58539add.css.map": "/MyMovies/static/css/main.58539add.css.map",
+    "main.0e67ce8a.js.map": "/MyMovies/static/js/main.0e67ce8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5595c354.css",
-    "static/js/main.27960277.js"
+    "static/css/main.58539add.css",
+    "static/js/main.0e67ce8a.js"
   ]
 }
